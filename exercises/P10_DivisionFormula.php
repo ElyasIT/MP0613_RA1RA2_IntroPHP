@@ -8,5 +8,7 @@ class P10_DivisionFormula {
 
         // Output the formula and result
         // Write the program here
+        $div = $numA / $numB;
+        echo "$numA / $numB = $div\n";
     }
 }

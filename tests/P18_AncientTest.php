@@ -6,7 +6,7 @@ use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
-require_once './exercises/P18_Ancient.php';
+require_once __DIR__ . '/../exercises/P18_Ancient.php';
 
 #[CoversClass(P18_Ancient::class)]
 final class P18_AncientTest extends TestCase

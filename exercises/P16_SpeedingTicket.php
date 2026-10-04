@@ -7,6 +7,9 @@ class P16_SpeedingTicket {
 
         // Check if the speed exceeds the limit
         // Write your code here
-        
+        $speedLimit = 120;
+        if ($speed > $speedLimit) {
+            echo "Speeding ticket!\n";
+        } 
     }
 }

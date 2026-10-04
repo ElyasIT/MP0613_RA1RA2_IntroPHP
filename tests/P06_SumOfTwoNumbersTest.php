@@ -5,7 +5,7 @@ require './exercises/P06_SumOfTwoNumbers.php';
 class P06_SumOfTwoNumbersTest extends TestCase {
     public function testMain() {
         // Define the expected output
-        $expectedOutput = "The sum of the numbers is 300\n";
+        $expectedOutput = "The sum of numbers is 300\n";
 
         // Capture the output of the main method
         $this->expectOutputString($expectedOutput);

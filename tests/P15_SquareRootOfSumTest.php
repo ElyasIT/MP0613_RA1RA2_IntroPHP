@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-require './exercises/P15_SquareRootOfSum.php';
+require_once __DIR__ . '/../exercises/P15_SquareRootOfSum.php';
 
 class P15_SquareRootOfSumTest extends TestCase {
     public function testMain() {

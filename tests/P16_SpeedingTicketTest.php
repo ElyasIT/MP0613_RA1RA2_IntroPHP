@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-require './exercises/P16_SpeedingTicket.php';
+require_once __DIR__ . '/../exercises/P16_SpeedingTicket.php';
 
 class P16_SpeedingTicketTest extends TestCase {
     public function testMainSpeeding() {

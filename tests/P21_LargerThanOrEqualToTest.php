@@ -6,7 +6,7 @@ use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
-require_once './exercises/P21_LargerThanOrEqualTo.php';
+require_once dirname(__DIR__) . '/exercises/P21_LargerThanOrEqualTo.php';
 
 #[CoversClass(P21_LargerThanOrEqualTo::class)]
 final class P21_LargerThanOrEqualToTest extends TestCase
